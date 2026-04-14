@@ -1,0 +1,35 @@
+.env
+.env.*
+!.env.example
+
+# Frontend
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Backend
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/venv/
+backend/__pycache__/
+backend/*.db
+backend/*.tmp
+backend/test_artifacts/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
